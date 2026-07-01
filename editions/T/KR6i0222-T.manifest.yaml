@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0222/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0222/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說魔逆經
+  identifiers:
+    krp: KR6i0222
+    cbeta: T15n0589
+    cbeta_old_id: T15n0589
+    authorityid: CA0002302
+    json_key: T0589
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0589.xml
+    old_id: T15n0589
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0222_000-T.yaml, hash: 'sha256:02dac55d7ba5a9c72363247e3ee5864d33c25542daed6c5aac8c0bc7b0369e66'}
+  - {seq: 1, filename: KR6i0222_001-T.yaml, hash: 'sha256:541da014380c75c48a47129865c527fd25f4f39570e1b97c93d705fd8c95d329'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0222_000-T.markers.yaml, hash: 'sha256:5f456a1f819f9192632e0e6bb0dae5615738d95973b6af99099ace7be3f2fe3d'}
+  - {seq: 1, role: markers, filename: assets/KR6i0222_001-T.markers.yaml, hash: 'sha256:7576b1fcfb61c88a6b8ef295d4bc220bf1b094ac227619a5837687c1324264b0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0222_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8533
+  label: 佛說魔逆經
+  type: juan
+  level: 1
+hash: sha256:bdcf33519310d13713df3c037c91aa8c556d0a0b87d2b07e1b2f19916f5d9615
